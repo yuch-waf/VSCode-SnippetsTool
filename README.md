@@ -46,6 +46,8 @@ Some language escapes may not be supported. Please be aware of this.
 
 caution: Translated with DeepL.com
 
+https://yuch-waf.github.io/VSCode-SnippetsTool/
+
 ***
 
 日本語
@@ -96,4 +98,4 @@ OKをクリックすると、自動的にそのフォルダにエクスポート
 
 一部言語のエスケープ文字には対応していない場合があります。ご了承ください。
 
-
+https://yuch-waf.github.io/VSCode-SnippetsTool/
