@@ -1,0 +1,25 @@
+﻿<Window x:Class="SnippetsInstaller.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        xmlns:core="clr-namespace:SnippetsInstaller.Core;assembly=SnippetsInstaller.Core"
+        Title="{Binding Title}" Height="500" Width="750" Background="#222233">
+
+    <Window.Resources>
+        <ResourceDictionary Source="ResourceDictionary.xaml" />
+    </Window.Resources>
+    
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal" Background="#111122" Height="30" VerticalAlignment="Top">
+                <Button Command="{Binding WindowChange}" CommandParameter="FileTool" Style="{StaticResource HoverButtonStyle}" Width="80" Height="30">File Tool</Button>
+                <Button Command="{Binding WindowChange}" CommandParameter="CustomSnippetsCs" Style="{StaticResource HoverButtonStyle}" Width="80" Height="30">Custom C#</Button>
+                <Button Command="{Binding WindowChange}" CommandParameter="CustomSnippetsJava" Style="{StaticResource HoverButtonStyle}" Width="80" Height="30">Custom Java</Button>
+            </StackPanel>
+            <StackPanel>
+                <ContentControl Margin="0,0,0,0" prism:RegionManager.RegionName="ContentRegion" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
