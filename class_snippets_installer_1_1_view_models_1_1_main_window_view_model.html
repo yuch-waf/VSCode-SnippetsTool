@@ -1,0 +1,771 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VSCode Snippets Tool: SnippetsInstaller.ViewModels.MainWindowViewModel クラス</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">VSCode Snippets Tool<span id="projectnumber">&#160;Beta-0.1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 構築: Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','検索');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">読み取り中…</div>
+<div class="SRStatus" id="Searching">検索中…</div>
+<div class="SRStatus" id="NoMatches">一致する文字列を見つけられません</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_snippets_installer.html">SnippetsInstaller</a></li><li class="navelem"><a class="el" href="namespace_snippets_installer_1_1_view_models.html">ViewModels</a></li><li class="navelem"><a class="el" href="class_snippets_installer_1_1_view_models_1_1_main_window_view_model.html">MainWindowViewModel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">公開メンバ関数</a> &#124;
+<a href="#properties">プロパティ</a> &#124;
+<a href="#pri-attribs">非公開変数類</a> &#124;
+<a href="class_snippets_installer_1_1_view_models_1_1_main_window_view_model-members.html">全メンバ一覧</a>  </div>
+  <div class="headertitle"><div class="title">SnippetsInstaller.ViewModels.MainWindowViewModel クラス</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+SnippetsInstaller.ViewModels.MainWindowViewModel の継承関係図</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_snippets_installer_1_1_view_models_1_1_main_window_view_model.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+公開メンバ関数</h2></td></tr>
+<tr class="memitem:ad2ba4e3b19f45500efcd489b1ae57ec5" id="r_ad2ba4e3b19f45500efcd489b1ae57ec5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad2ba4e3b19f45500efcd489b1ae57ec5">MainWindowViewModel</a> (IRegionManager regionManager)</td></tr>
+<tr class="memdesc:ad2ba4e3b19f45500efcd489b1ae57ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンストラクタです。<br  />
+ RegionManager, DelegateCommandなどを利用可能にします。  <br /></td></tr>
+<tr class="separator:ad2ba4e3b19f45500efcd489b1ae57ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54cd2f59663e08c900b46928046b75f8" id="r_a54cd2f59663e08c900b46928046b75f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54cd2f59663e08c900b46928046b75f8">ExcuteButton</a> (string button)</td></tr>
+<tr class="memdesc:a54cd2f59663e08c900b46928046b75f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">ボタンを押した際の処理です。<br  />
+ View xamlの CommandParameterに記述したstringによって処理をスイッチします。<br  />
+ タイプミス対策にEnumを用いています。  <br /></td></tr>
+<tr class="separator:a54cd2f59663e08c900b46928046b75f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b5c90d8e619ce5f7af558d8495e1f5" id="r_a46b5c90d8e619ce5f7af558d8495e1f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46b5c90d8e619ce5f7af558d8495e1f5">ExecuteWindowChange</a> (string windowName)</td></tr>
+<tr class="memdesc:a46b5c90d8e619ce5f7af558d8495e1f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">RegionManagerを利用した画面遷移処理です。<br  />
+ View xamlの CommandParameterに記述したstringによって処理をスイッチします。<br  />
+ windowNameと同じ名前のUserControll、ウィンドウを表示します。  <br /></td></tr>
+<tr class="separator:a46b5c90d8e619ce5f7af558d8495e1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+プロパティ</h2></td></tr>
+<tr class="memitem:a3048854e7196c8db95c36d7830a1a8ed" id="r_a3048854e7196c8db95c36d7830a1a8ed"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3048854e7196c8db95c36d7830a1a8ed">Title</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3048854e7196c8db95c36d7830a1a8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">ウィンドウのタイトルです。  <br /></td></tr>
+<tr class="separator:a3048854e7196c8db95c36d7830a1a8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f9a4a32c35a79054454b5275053c30e" id="r_a6f9a4a32c35a79054454b5275053c30e"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f9a4a32c35a79054454b5275053c30e">SourceFontSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6f9a4a32c35a79054454b5275053c30e"><td class="mdescLeft">&#160;</td><td class="mdescRight">機能未実装 記入欄のフォントサイズを変更するプルダウンの項目です。<br  />
+  <br /></td></tr>
+<tr class="separator:a6f9a4a32c35a79054454b5275053c30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad027a77e569c78a0d9cab831634b0243" id="r_ad027a77e569c78a0d9cab831634b0243"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad027a77e569c78a0d9cab831634b0243">ImportText</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad027a77e569c78a0d9cab831634b0243"><td class="mdescLeft">&#160;</td><td class="mdescRight">File ToolのImport欄に表示するテキストです。<br  />
+ そのままパスとして使用しています。  <br /></td></tr>
+<tr class="separator:ad027a77e569c78a0d9cab831634b0243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa18804f24911d582e3e2112cd43b31f" id="r_afa18804f24911d582e3e2112cd43b31f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa18804f24911d582e3e2112cd43b31f">ExportText</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:afa18804f24911d582e3e2112cd43b31f"><td class="mdescLeft">&#160;</td><td class="mdescRight">File ToolのExport欄に表示するテキストです。<br  />
+ そのままパスとして使用しています。  <br /></td></tr>
+<tr class="separator:afa18804f24911d582e3e2112cd43b31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12572d19ac61137da3195febdbdf258e" id="r_a12572d19ac61137da3195febdbdf258e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12572d19ac61137da3195febdbdf258e">FontSize</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a12572d19ac61137da3195febdbdf258e"><td class="mdescLeft">&#160;</td><td class="mdescRight">記入欄のフォントサイズです。  <br /></td></tr>
+<tr class="separator:a12572d19ac61137da3195febdbdf258e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8e91ffb6c7d8ee661def8432721d2c" id="r_a6d8e91ffb6c7d8ee661def8432721d2c"><td class="memItemLeft" align="right" valign="top">IRegionManager&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d8e91ffb6c7d8ee661def8432721d2c">RegionManager</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6d8e91ffb6c7d8ee661def8432721d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">UserControllに使用します。  <br /></td></tr>
+<tr class="separator:a6d8e91ffb6c7d8ee661def8432721d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a37ad50ab3c41e587a12700d3844fa1" id="r_a6a37ad50ab3c41e587a12700d3844fa1"><td class="memItemLeft" align="right" valign="top">DelegateCommand&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a37ad50ab3c41e587a12700d3844fa1">WindowChange</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6a37ad50ab3c41e587a12700d3844fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">画面遷移に使用します。  <br /></td></tr>
+<tr class="separator:a6a37ad50ab3c41e587a12700d3844fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfefe2c2274b13c71b372d0e7601436" id="r_a9dfefe2c2274b13c71b372d0e7601436"><td class="memItemLeft" align="right" valign="top">DelegateCommand&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dfefe2c2274b13c71b372d0e7601436">ButtonCommand</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9dfefe2c2274b13c71b372d0e7601436"><td class="mdescLeft">&#160;</td><td class="mdescRight">ボタンを押した際の処理に使用します。  <br /></td></tr>
+<tr class="separator:a9dfefe2c2274b13c71b372d0e7601436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c3aa8e76ab09d66f6a145e071ede85" id="r_a64c3aa8e76ab09d66f6a145e071ede85"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64c3aa8e76ab09d66f6a145e071ede85">CsPrefix</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a64c3aa8e76ab09d66f6a145e071ede85"><td class="mdescLeft">&#160;</td><td class="mdescRight">C::の予測の入力値です。  <br /></td></tr>
+<tr class="separator:a64c3aa8e76ab09d66f6a145e071ede85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9609eeeef8abb35ad79f1b1fc549c9d5" id="r_a9609eeeef8abb35ad79f1b1fc549c9d5"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9609eeeef8abb35ad79f1b1fc549c9d5">CsDescription</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a9609eeeef8abb35ad79f1b1fc549c9d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">C::の説明分の入力値です。  <br /></td></tr>
+<tr class="separator:a9609eeeef8abb35ad79f1b1fc549c9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6e0a09781664e6c878ed46fdd8fee8" id="r_aeb6e0a09781664e6c878ed46fdd8fee8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb6e0a09781664e6c878ed46fdd8fee8">CsBody</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aeb6e0a09781664e6c878ed46fdd8fee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">C::のボディの入力値です。  <br /></td></tr>
+<tr class="separator:aeb6e0a09781664e6c878ed46fdd8fee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab916fe44384283013f9b43b456d4a0c2" id="r_ab916fe44384283013f9b43b456d4a0c2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab916fe44384283013f9b43b456d4a0c2">CsTitle</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab916fe44384283013f9b43b456d4a0c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">C::のタイトルの入力値です。  <br /></td></tr>
+<tr class="separator:ab916fe44384283013f9b43b456d4a0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13f8b90c3f70a7af65bbe4572915f283" id="r_a13f8b90c3f70a7af65bbe4572915f283"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13f8b90c3f70a7af65bbe4572915f283">JavaPrefix</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a13f8b90c3f70a7af65bbe4572915f283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Javaの予測の入力値です。  <br /></td></tr>
+<tr class="separator:a13f8b90c3f70a7af65bbe4572915f283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2b1987892b21adbf308a2e45a0ba8d" id="r_aad2b1987892b21adbf308a2e45a0ba8d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad2b1987892b21adbf308a2e45a0ba8d">JavaDescription</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:aad2b1987892b21adbf308a2e45a0ba8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Javaの説明分の入力値です。  <br /></td></tr>
+<tr class="separator:aad2b1987892b21adbf308a2e45a0ba8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae45b01d8c195324e8c9e8953d7717d84" id="r_ae45b01d8c195324e8c9e8953d7717d84"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae45b01d8c195324e8c9e8953d7717d84">JavaBody</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae45b01d8c195324e8c9e8953d7717d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Javaのボディの入力値です。  <br /></td></tr>
+<tr class="separator:ae45b01d8c195324e8c9e8953d7717d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae973f0d865f4ba15ec83694ead87d07e" id="r_ae973f0d865f4ba15ec83694ead87d07e"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae973f0d865f4ba15ec83694ead87d07e">JavaTitle</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae973f0d865f4ba15ec83694ead87d07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Javaのタイトルの入力値です。  <br /></td></tr>
+<tr class="separator:ae973f0d865f4ba15ec83694ead87d07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+非公開変数類</h2></td></tr>
+<tr class="memitem:aed4979c252da3b0a12cb4599c1fadd8f" id="r_aed4979c252da3b0a12cb4599c1fadd8f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed4979c252da3b0a12cb4599c1fadd8f">_title</a> = &quot;VSCode Snippets Tool&quot;</td></tr>
+<tr class="separator:aed4979c252da3b0a12cb4599c1fadd8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a640989c3868465e95ea2c2397b9d70e4" id="r_a640989c3868465e95ea2c2397b9d70e4"><td class="memItemLeft" align="right" valign="top">List&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a640989c3868465e95ea2c2397b9d70e4">_sourceFontSize</a></td></tr>
+<tr class="separator:a640989c3868465e95ea2c2397b9d70e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64fae109768388ad59dbd59823ac8c8f" id="r_a64fae109768388ad59dbd59823ac8c8f"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64fae109768388ad59dbd59823ac8c8f">_importText</a> = string.Empty</td></tr>
+<tr class="separator:a64fae109768388ad59dbd59823ac8c8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7c51f7b217ff2722608c526dd129b2" id="r_aaf7c51f7b217ff2722608c526dd129b2"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf7c51f7b217ff2722608c526dd129b2">_exportText</a> = string.Empty</td></tr>
+<tr class="separator:aaf7c51f7b217ff2722608c526dd129b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6171b33409a7b9213693101d4dfd476a" id="r_a6171b33409a7b9213693101d4dfd476a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6171b33409a7b9213693101d4dfd476a">_fontSize</a> = 12</td></tr>
+<tr class="separator:a6171b33409a7b9213693101d4dfd476a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">構築子と解体子</h2>
+<a id="ad2ba4e3b19f45500efcd489b1ae57ec5" name="ad2ba4e3b19f45500efcd489b1ae57ec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ba4e3b19f45500efcd489b1ae57ec5">&#9670;&#160;</a></span>MainWindowViewModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SnippetsInstaller.ViewModels.MainWindowViewModel.MainWindowViewModel </td>
+          <td>(</td>
+          <td class="paramtype">IRegionManager</td>          <td class="paramname"><span class="paramname"><em>regionManager</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>コンストラクタです。<br  />
+ RegionManager, DelegateCommandなどを利用可能にします。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">regionManager</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メソッド詳解</h2>
+<a id="a54cd2f59663e08c900b46928046b75f8" name="a54cd2f59663e08c900b46928046b75f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54cd2f59663e08c900b46928046b75f8">&#9670;&#160;</a></span>ExcuteButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SnippetsInstaller.ViewModels.MainWindowViewModel.ExcuteButton </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>button</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ボタンを押した際の処理です。<br  />
+ View xamlの CommandParameterに記述したstringによって処理をスイッチします。<br  />
+ タイプミス対策にEnumを用いています。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">button</td><td>xaml.CommandParameter</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a46b5c90d8e619ce5f7af558d8495e1f5" name="a46b5c90d8e619ce5f7af558d8495e1f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b5c90d8e619ce5f7af558d8495e1f5">&#9670;&#160;</a></span>ExecuteWindowChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SnippetsInstaller.ViewModels.MainWindowViewModel.ExecuteWindowChange </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>windowName</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>RegionManagerを利用した画面遷移処理です。<br  />
+ View xamlの CommandParameterに記述したstringによって処理をスイッチします。<br  />
+ windowNameと同じ名前のUserControll、ウィンドウを表示します。 </p>
+<dl class="params"><dt>引数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">windowName</td><td>CommandParameter</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">メンバ詳解</h2>
+<a id="aaf7c51f7b217ff2722608c526dd129b2" name="aaf7c51f7b217ff2722608c526dd129b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7c51f7b217ff2722608c526dd129b2">&#9670;&#160;</a></span>_exportText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel._exportText = string.Empty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6171b33409a7b9213693101d4dfd476a" name="a6171b33409a7b9213693101d4dfd476a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6171b33409a7b9213693101d4dfd476a">&#9670;&#160;</a></span>_fontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double SnippetsInstaller.ViewModels.MainWindowViewModel._fontSize = 12</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64fae109768388ad59dbd59823ac8c8f" name="a64fae109768388ad59dbd59823ac8c8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64fae109768388ad59dbd59823ac8c8f">&#9670;&#160;</a></span>_importText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel._importText = string.Empty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a640989c3868465e95ea2c2397b9d70e4" name="a640989c3868465e95ea2c2397b9d70e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a640989c3868465e95ea2c2397b9d70e4">&#9670;&#160;</a></span>_sourceFontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; SnippetsInstaller.ViewModels.MainWindowViewModel._sourceFontSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初期値:</b><div class="fragment"><div class="line">= <span class="keyword">new</span>()</div>
+<div class="line">        {</div>
+<div class="line">            1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,</div>
+<div class="line">        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aed4979c252da3b0a12cb4599c1fadd8f" name="aed4979c252da3b0a12cb4599c1fadd8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4979c252da3b0a12cb4599c1fadd8f">&#9670;&#160;</a></span>_title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel._title = &quot;VSCode Snippets Tool&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">プロパティ詳解</h2>
+<a id="a9dfefe2c2274b13c71b372d0e7601436" name="a9dfefe2c2274b13c71b372d0e7601436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dfefe2c2274b13c71b372d0e7601436">&#9670;&#160;</a></span>ButtonCommand</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DelegateCommand&lt;string&gt; SnippetsInstaller.ViewModels.MainWindowViewModel.ButtonCommand</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ボタンを押した際の処理に使用します。 </p>
+
+</div>
+</div>
+<a id="aeb6e0a09781664e6c878ed46fdd8fee8" name="aeb6e0a09781664e6c878ed46fdd8fee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6e0a09781664e6c878ed46fdd8fee8">&#9670;&#160;</a></span>CsBody</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.CsBody</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>C::のボディの入力値です。 </p>
+
+</div>
+</div>
+<a id="a9609eeeef8abb35ad79f1b1fc549c9d5" name="a9609eeeef8abb35ad79f1b1fc549c9d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9609eeeef8abb35ad79f1b1fc549c9d5">&#9670;&#160;</a></span>CsDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.CsDescription</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>C::の説明分の入力値です。 </p>
+
+</div>
+</div>
+<a id="a64c3aa8e76ab09d66f6a145e071ede85" name="a64c3aa8e76ab09d66f6a145e071ede85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64c3aa8e76ab09d66f6a145e071ede85">&#9670;&#160;</a></span>CsPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.CsPrefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>C::の予測の入力値です。 </p>
+
+</div>
+</div>
+<a id="ab916fe44384283013f9b43b456d4a0c2" name="ab916fe44384283013f9b43b456d4a0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab916fe44384283013f9b43b456d4a0c2">&#9670;&#160;</a></span>CsTitle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.CsTitle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>C::のタイトルの入力値です。 </p>
+
+</div>
+</div>
+<a id="afa18804f24911d582e3e2112cd43b31f" name="afa18804f24911d582e3e2112cd43b31f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa18804f24911d582e3e2112cd43b31f">&#9670;&#160;</a></span>ExportText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.ExportText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>File ToolのExport欄に表示するテキストです。<br  />
+ そのままパスとして使用しています。 </p>
+
+</div>
+</div>
+<a id="a12572d19ac61137da3195febdbdf258e" name="a12572d19ac61137da3195febdbdf258e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12572d19ac61137da3195febdbdf258e">&#9670;&#160;</a></span>FontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double SnippetsInstaller.ViewModels.MainWindowViewModel.FontSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>記入欄のフォントサイズです。 </p>
+
+</div>
+</div>
+<a id="ad027a77e569c78a0d9cab831634b0243" name="ad027a77e569c78a0d9cab831634b0243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad027a77e569c78a0d9cab831634b0243">&#9670;&#160;</a></span>ImportText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.ImportText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>File ToolのImport欄に表示するテキストです。<br  />
+ そのままパスとして使用しています。 </p>
+
+</div>
+</div>
+<a id="ae45b01d8c195324e8c9e8953d7717d84" name="ae45b01d8c195324e8c9e8953d7717d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae45b01d8c195324e8c9e8953d7717d84">&#9670;&#160;</a></span>JavaBody</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.JavaBody</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Javaのボディの入力値です。 </p>
+
+</div>
+</div>
+<a id="aad2b1987892b21adbf308a2e45a0ba8d" name="aad2b1987892b21adbf308a2e45a0ba8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad2b1987892b21adbf308a2e45a0ba8d">&#9670;&#160;</a></span>JavaDescription</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.JavaDescription</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Javaの説明分の入力値です。 </p>
+
+</div>
+</div>
+<a id="a13f8b90c3f70a7af65bbe4572915f283" name="a13f8b90c3f70a7af65bbe4572915f283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13f8b90c3f70a7af65bbe4572915f283">&#9670;&#160;</a></span>JavaPrefix</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.JavaPrefix</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Javaの予測の入力値です。 </p>
+
+</div>
+</div>
+<a id="ae973f0d865f4ba15ec83694ead87d07e" name="ae973f0d865f4ba15ec83694ead87d07e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae973f0d865f4ba15ec83694ead87d07e">&#9670;&#160;</a></span>JavaTitle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.JavaTitle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Javaのタイトルの入力値です。 </p>
+
+</div>
+</div>
+<a id="a6d8e91ffb6c7d8ee661def8432721d2c" name="a6d8e91ffb6c7d8ee661def8432721d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d8e91ffb6c7d8ee661def8432721d2c">&#9670;&#160;</a></span>RegionManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IRegionManager SnippetsInstaller.ViewModels.MainWindowViewModel.RegionManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>UserControllに使用します。 </p>
+
+</div>
+</div>
+<a id="a6f9a4a32c35a79054454b5275053c30e" name="a6f9a4a32c35a79054454b5275053c30e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f9a4a32c35a79054454b5275053c30e">&#9670;&#160;</a></span>SourceFontSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;int&gt; SnippetsInstaller.ViewModels.MainWindowViewModel.SourceFontSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>機能未実装 記入欄のフォントサイズを変更するプルダウンの項目です。<br  />
+ </p>
+
+</div>
+</div>
+<a id="a3048854e7196c8db95c36d7830a1a8ed" name="a3048854e7196c8db95c36d7830a1a8ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3048854e7196c8db95c36d7830a1a8ed">&#9670;&#160;</a></span>Title</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string SnippetsInstaller.ViewModels.MainWindowViewModel.Title</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ウィンドウのタイトルです。 </p>
+
+</div>
+</div>
+<a id="a6a37ad50ab3c41e587a12700d3844fa1" name="a6a37ad50ab3c41e587a12700d3844fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a37ad50ab3c41e587a12700d3844fa1">&#9670;&#160;</a></span>WindowChange</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DelegateCommand&lt;string&gt; SnippetsInstaller.ViewModels.MainWindowViewModel.WindowChange</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>画面遷移に使用します。 </p>
+
+</div>
+</div>
+<hr/>このクラス詳解は次のファイルから抽出されました:<ul>
+<li>C:/Users/MSI4500/source/repos/SnippetsInstaller/SnippetsInstaller/ViewModels/<a class="el" href="_main_window_view_model_8cs.html">MainWindowViewModel.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+構築:&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0
+</small></address>
+</body>
+</html>
